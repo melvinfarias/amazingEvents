@@ -1,0 +1,52 @@
+.title-carrusel {
+    position: absolute;
+    left: 550px;
+    top: 40px;
+    color: white;
+    display: flex;
+}
+
+.title-upComming {
+    position: absolute;
+    left: 450px;
+    top: 40px;
+    color: white;
+    display: flex;
+}
+.d-flex{
+    align-items: center;
+}
+footer{
+    background-color: #ff3290 ;
+    height: 100px;
+    width: 100%;
+}
+.card{
+    padding: 10px;
+    margin: 10px;
+}
+.bi-facebook, .bi-instagram, .bi-whatsapp{
+    color: white;
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+}
+.title-footer{
+    color: white;
+}
+.barra-home{
+    background-color: #ff3290;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+.form-contact{
+    padding: 2% 20% 0% 20%;
+}
+.btn-success{
+    margin-bottom: 10px;
+}
+.card-pastEvents{
+    padding: 2% 20% 0% 20%;
+    text-align: center;
+}
