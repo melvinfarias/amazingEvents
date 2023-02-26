@@ -1,29 +1,53 @@
-.title-carrusel {
-    position: absolute;
-    left: 550px;
-    top: 40px;
-    color: white;
-    display: flex;
-}
 
-.title-upComming {
-    position: absolute;
-    left: 450px;
-    top: 40px;
-    color: white;
+*{
+    font-family:'Roboto', sans-serif;;
+}
+.container-box{
+    min-height: 100vh;
     display: flex;
+    flex-direction: column;
+    background-image: url(./assets/img/backgound.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.buttom-nav{
+    margin: 5px;
+}
+.check-category{
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+.form-check-label{
+    font-weight: 400;
+}
+.brouser{
+    justify-content: space-between;
 }
 .d-flex{
     align-items: center;
-}
-footer{
-    background-color: #ff3290 ;
-    height: 100px;
-    width: 100%;
-}
+} 
 .card{
     padding: 10px;
-    margin: 10px;
+    margin: 30px;  
+}
+.card-body{
+    display: flex;
+    justify-content: space-between;
+}
+.card-img-top{
+    height: 100px;
+    object-fit: cover;
+}
+.cards-events{
+    justify-content: space-evenly;
+    width: 100% !important;
+    flex-wrap: wrap;
+}
+.card-body-text{
+    text-align: center;
+}
+.pastEvents{
+    margin-top: 50px;
 }
 .bi-facebook, .bi-instagram, .bi-whatsapp{
     color: white;
@@ -31,22 +55,87 @@ footer{
     width: 30px;
     margin: 20px;
 }
-.title-footer{
+.title-footer, .footer{
     color: white;
+    background-color: #ff3290;
+    padding: 10px;
+    justify-content: space-between;
 }
-.barra-home{
+.barra{
+    display: flex;
     background-color: #ff3290;
     color: white;
     padding: 15px;
-    text-align: center;
+    justify-content: space-between;
+}
+.title-details{
+    display: flex;
+    background-color: #ff3290;
+    color: white;
+    padding: 15px;
+    justify-content: center;
 }
 .form-contact{
-    padding: 2% 20% 0% 20%;
+    padding: 2% 30% 0% 30%;
 }
-.btn-success{
-    margin-bottom: 10px;
+.form-label{
+    font-weight: bold;
 }
-.card-pastEvents{
-    padding: 2% 20% 0% 20%;
-    text-align: center;
+/* #exampleFormControlTextarea1, #exampleFormControlInput1 {
+    font-style: italic;
+    font-weight: 100;
+} */
+.form-control{
+    font-style: italic;
+    font-weight: 100 !important;
+
 }
+tr, td, th{
+    border: 1px solid green;
+    padding: 15px;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.col-s-6{
+    font-size: 20px;
+    color: white;
+
+}
+.buttom-details{
+    border: 1px solid green;
+    background-color: #ff3290;
+    color: white;
+    padding: 8px;
+    border-radius: 5%;
+    text-decoration: none;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.details-spam{
+    font-weight: bold;
+}
+.category-details{
+    padding: 15px;
+    margin-top: 30px;
+
+}
+.linea{
+    background-color: #9acef8;
+    color: #9acef8
+}
+.btn-outline-success{
+    object-fit: cover;
+}
+
+
+
+
+
