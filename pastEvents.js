@@ -20,7 +20,7 @@ function printPastEvents() {
                         <p class="card-link">Price:${one.price} </p>
                     </div>
                     <div>
-                        <a href="./details.html" class="btn btn-outline-success">Details</a>
+                        <a href="./details.html" class="btn btn-success">Details</a>
                     </div>
                 </div>
             </div>
@@ -30,6 +30,6 @@ function printPastEvents() {
         }
     }
     let cardPastEvents= document.getElementById('container-pastEvents')
-    cardPastEvents.innerHTML = pastEvents
+    cardPastEvents.innerHTML = pastEvents.join('')
 }
 printPastEvents()

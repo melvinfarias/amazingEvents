@@ -17,7 +17,7 @@ console.log(events)
                         <p class="card-link">Price:${one.price} </p>
                     </div>
                     <div>
-                        <a href="./details.html" class="btn btn-outline-success">Details</a>
+                        <a href="./details.html" class="btn btn-success">Details</a>
                     </div>
                 </div>
             </div>
@@ -26,9 +26,11 @@ console.log(events)
         console.log(allEvents)
     }
     let cardEvents = document.getElementById('container-cards')
-    cardEvents.innerHTML= allEvents
+    cardEvents.innerHTML= allEvents.join('')
 }
 printCards()
+
+
 
 
 
