@@ -134,6 +134,10 @@ tr, td, th{
 .btn-outline-success{
     object-fit: cover;
 }
+.card-title{
+    margin-top: 15px;
+    color: #44a9fb;
+}
 
 
 
