@@ -20,15 +20,12 @@
 .form-check-label{
     font-weight: 400;
 }
-.brouser{
-    justify-content: space-between;
-}
 .d-flex{
     align-items: center;
 } 
 .card{
-    padding: 10px;
-    margin: 30px;  
+    margin: 30px; 
+    box-shadow: 2px 2px 2px 2px #c6e5fe; 
 }
 .card-body{
     display: flex;
@@ -137,6 +134,9 @@ tr, td, th{
 .card-title{
     margin-top: 15px;
     color: #44a9fb;
+}
+.form-inline{
+    display: flex;
 }
 
 
