@@ -6,7 +6,7 @@ console.log(events)
   function printCards(){
     for (let one of events){
         let card = `
-            <div class="card col-md-2" style="width: 16rem; height: 22rem;">
+            <div class="card col-md-2" style="width: 16rem; height: 20rem;">
                 <img src="${one.image} " class="card-img-top" style="height: 8rem;" alt="${one.name}">
                 <div class="card-body-text">
                     <h5 class="card-title">${one.name}</h5>
